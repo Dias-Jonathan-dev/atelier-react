@@ -8,28 +8,32 @@ function App() {
 
   return (
     <>
-      <h1>Notre quiz sur REACT</h1>
+      {" "}
+      <header>
+        <h1>
+          Notre quiz sur <div className="react-heading">REACT</div>
+        </h1>
 
-      <div>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+        <div>
+          <a href="https://react.dev" target="_blank" rel="noreferrer">
+            <img src={reactLogo} className="logo react" alt="React logo" />
+          </a>
+        </div>
 
-      <div className="button">
-        <button type="button" onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+        <div className="text-header">
+          <p>
+            Bienvenue sur notre quiz <span className="react">REACT</span>. Teste
+            tes connaissances et compare tes résultats avec tes copains ! Le
+            perdant doit ramener les choco vendredi !
+          </p>
+        </div>
 
-      <div>
-        <p>
-          Bienvenue sur notre quiz REACT. Teste tes connaissances et compare tes
-          résultats avec tes copains ! Le perdant doit ramener les choco
-          vendredi !
-        </p>
-      </div>
-
+        <div className="button">
+          <button type="button" onClick={() => setCount((count) => count + 1)}>
+            count is {count}
+          </button>
+        </div>
+      </header>
       <div className="questions">
         <div className="question 1"> </div>
         <div className="answers 1">

@@ -18,6 +18,26 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.react-heading {
+  font-size: 8rem;
+  color: rgb(0, 208, 255);
+  font-family: "Chewy", system-ui;
+}
+
+.text-header {
+  font-family: "Sour Gummy", sans-serif;
+  max-width: 65ch;
+}
+
+.header {
+  height: 100vh;
+}
+
+.react {
+  color: rgb(0, 208, 255);
+  font-weight: 600;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
