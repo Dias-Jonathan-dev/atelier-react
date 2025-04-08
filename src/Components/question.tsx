@@ -5,7 +5,6 @@ const Question = ({ question, options }) => {
 
       {options.map((option, index) => (
         <button className="option" key="{index}" onclick="()">
-          {" "}
           {onAnswer(option)}
           {option}
         </button>

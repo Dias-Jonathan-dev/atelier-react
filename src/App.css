@@ -40,6 +40,8 @@
 
 .questions h2 {
   color: rgb(0, 208, 255);
+  width: 25vw;
+  margin: 60px auto 0 auto;
 }
 
 .questions li {
@@ -48,14 +50,12 @@
   border-radius: 5px;
   border: rgba(0, 0, 0, 0.829) 1px solid;
   padding: 5px;
-  width: 50vh;
+  width: 25vw;
   margin: 5px auto;
   font-family: "Sour Gummy", sans-serif;
 }
 
-.button {
-  width: rem;
-}
+
 
 @keyframes logo-spin {
   from {
