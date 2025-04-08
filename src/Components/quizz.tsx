@@ -15,7 +15,7 @@ const data = [
     {  question: "Comment passe-t-on des données d'un composant parent à un composant enfant ?",
         options: ["Avec des hooks", "Avec des classes", "Avec des props"],
         answer: "Avec des props",
-    }
+    },
     {  question: "Quelle est la différence principale entre une prop et un state ?",
         options: ["Les props sont immuables, le state est mutable", "Les props sont locales, le state est global", "Les props sont pour les hooks, le state pour les classes"],
         answer: "Les props sont immuables, le state est mutable", 
@@ -42,3 +42,5 @@ const data = [
     },
 
 ];
+
+export default data
