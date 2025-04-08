@@ -1,8 +1,9 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import data from "./Components/quizz";
-import Results from "./Components/Result";  
+import Quiz from "./Components/quizz";
+import Results from "./Components/Result";
+import data from "./Components/data";
 
 function App() {
   const [showQuestions, setShowQuestions] = useState(false);
@@ -12,7 +13,7 @@ function App() {
   };
 
   return (
-    <>
+    <body>
       <header>
         <h1>
           Notre quiz sur <div className="react-heading">REACT</div>
@@ -38,10 +39,10 @@ function App() {
       
 
       </header> 
-      <body>
+     
         <Quiz /> 
         <Results />
-      </body>
+     
          
 
       {showQuestions && (
@@ -58,7 +59,7 @@ function App() {
           ))}
         </section>
       )}
-    </>
+  </body>
   );
 }
 
