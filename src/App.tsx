@@ -1,8 +1,13 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+<<<<<<< HEAD
 import data from "./Components/quizz";  // Assure-toi que `data` contient les questions
 import Results from "./Components/Result";  // Tu peux ajouter une section de résultats plus tard si nécessaire
+=======
+import Quiz from "./Components/quizz.tsx";
+import Results from "./Components/Result.tsx";
+>>>>>>> da645518bb45c39de6b97705de7efd55197d33e0
 
 function App() {
   const [showQuestions, setShowQuestions] = useState(false);
@@ -13,6 +18,11 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
+=======
+      {" "}
+ {/*  "pourquoi cette ligne au dessus ? " */}
+>>>>>>> da645518bb45c39de6b97705de7efd55197d33e0
       <header>
         <h1>
           Notre quiz sur <div className="react-heading">REACT</div>
@@ -35,6 +45,7 @@ function App() {
         <div className="button">
           <button type="button" onClick={toggleQuestions}>Débuter le quiz !</button>
         </div>
+<<<<<<< HEAD
       </header> 
 
       {showQuestions && (
@@ -51,6 +62,24 @@ function App() {
           ))}
         </section>
       )}
+=======
+      
+
+      </header>
+      <body>
+        <Quiz /> 
+        <Results />
+      </body>
+         
+      {/* <div className="questions"> J'ai gardé le modèle juste au cas où...
+        <div className="question 1"> </div>
+        <div className="answers 1">
+          <button type="answer 1"> </button>
+          <button type="answer 2"> </button>
+          <button type="answer 3"> </button>
+        </div> */}
+      </div>
+>>>>>>> da645518bb45c39de6b97705de7efd55197d33e0
     </>
   );
 }
