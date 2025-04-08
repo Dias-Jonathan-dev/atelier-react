@@ -38,6 +38,21 @@
   font-weight: 600;
 }
 
+.questions h2 {
+  color: rgb(0, 208, 255);
+}
+
+.questions li {
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.774);
+  border-radius: 5px;
+  border: rgba(0, 0, 0, 0.829) 1px solid;
+  padding: 5px;
+  width: 50vh;
+  margin: 5px auto;
+  font-family: "Sour Gummy", sans-serif;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
