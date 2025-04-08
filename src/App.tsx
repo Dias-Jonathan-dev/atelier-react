@@ -1,6 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import Quiz from "./Components/quizz.tsx";
+import Results from "./Components/Result.tsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +10,7 @@ function App() {
   return (
     <>
       {" "}
+ {/*  "pourquoi cette ligne au dessus ? " */}
       <header>
         <h1>
           Notre quiz sur <div className="react-heading">REACT</div>
@@ -32,7 +35,14 @@ function App() {
             count is {count}
           </button>
         </div>
+      
+
       </header>
+      <body>
+        <Quiz /> 
+        <Results />
+      </body>
+         
       {/* <div className="questions"> J'ai gardé le modèle juste au cas où...
         <div className="question 1"> </div>
         <div className="answers 1">

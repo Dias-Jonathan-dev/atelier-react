@@ -115,4 +115,5 @@ const Quiz = () => {
     );
   };
 };
-export default App;
+
+export default Quiz;
